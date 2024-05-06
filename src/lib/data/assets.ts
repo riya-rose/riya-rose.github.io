@@ -88,7 +88,7 @@ const Assets = {
 	Martin: a('martindow.webp'),
 	PSX: a('psx.webp'),
 	Faysal: a('faysal.webp'),
-	JSB: a('jsb.webp'),
+	JSB: a('jsb.jpg'),
 	MCB: a('mcb.webp'),
 	HBL: a('hbl.webp'),
 	EBM: a('ebm.webp'),

@@ -51,6 +51,54 @@ export const items: Array<Project> = [
 		skills: getSkills('php', 'js', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 	},
+	{
+		slug: 'unilever',
+		color: '#ff3e00',
+		description:
+			"<p>Unilever's website showcases its diverse range of products, brand information, and corporate initiatives. It offers an interactive platform for consumers to explore Unilever's offerings and engage with the brand.</p><h4>Responsibilities:</h4><ul><li>Contributed to various aspects of the website, implementing new features and enhancements.</li><li>Collaborated with the team to integrate marketing strategies and brand elements seamlessly into the website's design and functionality.</li></ul>",
+		shortDescription:
+			"<p>Unilever's website showcases its diverse range of products, brand information, and corporate initiatives. It offers an interactive platform for consumers to explore Unilever's offerings and engage with the brand.</p>",
+		links: [],
+		logo: Assets.Unilever,
+		name: 'Unilever',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		type: 'In-house Project',
+	},
+	{
+		slug: 'mcb',
+		color: '#ff3e00',
+		description:
+			"<p>MCB's website is a comprehensive platform for banking services, including online banking, account management, and financial products. It provides users with tools to manage their finances efficiently.</p><h4>Responsibilities:</h4><ul><li>Managed backend features, maintenance, and development.</li><li>Developed and maintained specific backend functionalities for MCB.</li><li>Conducted rigorous testing and debugging.</li></ul>",
+		shortDescription:
+			"<p>MCB's website is a comprehensive platform for banking services, including online banking, account management, and financial products. It provides users with tools to manage their finances efficiently.</p>",
+		links: [],
+		logo: Assets.MCB,
+		name: 'MCB',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		type: 'In-house Project',
+	},
+	{
+		slug: 'hbl',
+		color: '#ff3e00',
+		description:
+			"<p>HBL's website offers a wide range of banking services, including loans, account management, and financial solutions. It provides users with easy access to banking tools and resources.</p><h4>Responsibilities:</h4><ul><li>Developed custom modules for loan calculation, form submissions, and data display.</li><li>Managed content and updates on the CMS.</li></ul>",
+		shortDescription:
+			"<p>HBL's website offers a wide range of banking services, including loans, account management, and financial solutions. It provides users with easy access to banking tools and resources.</p>",
+		links: [],
+		logo: Assets.HBL,
+		name: 'HBL',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		type: 'In-house Project',
+	},
 ];
 
 export const title = 'Projects';

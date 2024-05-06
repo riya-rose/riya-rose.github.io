@@ -3,7 +3,7 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Post Graduate Diploma',
+		degree: 'Post Graduate Diploma.',
 		description: '',
 		location: 'Pakistan',
 		logo: Assets.VUni,

@@ -93,6 +93,11 @@ const Assets = {
 	HBL: a('hbl.webp'),
 	EBM: a('ebm.webp'),
 	jQuery: a('jquery.svg'),
+	Unilever: a('unilever.webp'),
+	Knorr: a('knorr.svg'),
+	Lipton: a('sipton.svg'),
+	Searle: a('searle.png'),
+	IoBM: a('iobm.png'),
 };
 
 export default Assets;

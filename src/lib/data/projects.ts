@@ -19,6 +19,22 @@ export const items: Array<Project> = [
 		skills: getSkills('php', 'js', 'codeigniter', 'laravel', 'mysql', 'css', 'html'),
 		type: 'In-house Project'
 	},
+	{
+		slug: 'survit',
+		color: '#ff3e00',
+		description:
+			'<p>survit is an end-to-end saas solution that enables organizations to measure satisfaction level of their customers at scale. the solution is based on csat method of measuring customer satisfaction levels at sales & service touchpoints.</p>',
+		shortDescription:
+			'survit is an end-to-end saas solution that enables organizations to measure satisfaction level of their customers at scale. the solution is based on csat method of measuring customer satisfaction levels at sales & service touchpoints.',
+		links: [],
+		logo: Assets.Survit,
+		name: 'Survit',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('php', 'js', 'mysql', 'css', 'html'),
+		type: 'In-house Project',
+	},
 ];
 
 export const title = 'Projects';

@@ -35,6 +35,22 @@ export const items: Array<Project> = [
 		skills: getSkills('php', 'js', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 	},
+	{
+		slug: 'psx',
+		color: '#ff3e00',
+		description:
+			"<p>The PSX website serves as a hub for stock market analysis, trading, and information related to Pakistan's stock exchange. It provides tools for market analysis, glossaries for stock exchange terms, and a comprehensive gallery of stock-related content.</p><h4>Responsibilities:</h4><ul><li>Managed and optimized the backend logic using ExpressionEngine CMS, ensuring smooth operations and performance.</li><li>Conducted regular maintenance tasks, including bug fixing and performance tuning, to uphold the website's reliability and user experience.</li><li>Developed key features such as market analysis tools, a comprehensive glossary for stock exchange terms, an interactive gallery, and otfunctionalities essential to stock exchange operations.</li></ul>",
+		shortDescription:
+			"The PSX website serves as a hub for stock market analysis, trading, and information related to Pakistan's stock exchange. It provides tools for market analysis, glossaries for stock exchange terms, and a comprehensive gallery of stock-related content.",
+		links: [],
+		logo: Assets.PSX,
+		name: 'PSX',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('php', 'js', 'mysql', 'css', 'html'),
+		type: 'In-house Project',
+	},
 ];
 
 export const title = 'Projects';

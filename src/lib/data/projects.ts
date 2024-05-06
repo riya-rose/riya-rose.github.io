@@ -115,38 +115,6 @@ export const items: Array<Project> = [
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 	},
-	{
-		slug: 'knorr',
-		color: '#ff3e00',
-		description:
-			"<p>Knorr's website features recipes, cooking tips, and product information related to Knorr's food products. It offers a platform for users to discover new recipes and engage with the Knorr brand.</p><h4>Responsibilities:</h4><ul><li>Designed and implemented various website features and modules.</li><li>Enhanced user engagement and brand visibility.</li></ul>",
-		shortDescription:
-			"<p>Knorr's website features recipes, cooking tips, and product information related to Knorr's food products. It offers a platform for users to discover new recipes and engage with the Knorr brand.</p>",
-		links: [],
-		logo: Assets.Knorr,
-		name: 'Knorr',
-		period: {
-			from: new Date()
-		},
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
-		type: 'In-house Project',
-	},
-	{
-		slug: 'lipton',
-		color: '#ff3e00',
-		description:
-			"<p>Lipton's website is focused on tea products, offering information about Lipton's tea varieties, recipes, and health benefits. It provides users with resources to explore tea-related content and promotions.</p><h4>Responsibilities:</h4><ul><li>Utilized AEM to create and integrate multiple modules.</li><li>Collaborated with design and marketing teams.</li></ul>",
-		shortDescription:
-			"<p>Lipton's website is focused on tea products, offering information about Lipton's tea varieties, recipes, and health benefits. It provides users with resources to explore tea-related content and promotions.</p>",
-		links: [],
-		logo: Assets.Lipton,
-		name: 'Lipton',
-		period: {
-			from: new Date()
-		},
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
-		type: 'In-house Project',
-	},
 ];
 
 export const title = 'Projects';

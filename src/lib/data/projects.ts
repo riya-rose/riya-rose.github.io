@@ -116,7 +116,7 @@ export const items: Array<Project> = [
 		type: 'In-house Project',
 	},
 	{
-		slug: 'Knorr',
+		slug: 'knorr',
 		color: '#ff3e00',
 		description:
 			"<p>Knorr's website features recipes, cooking tips, and product information related to Knorr's food products. It offers a platform for users to discover new recipes and engage with the Knorr brand.</p><h4>Responsibilities:</h4><ul><li>Designed and implemented various website features and modules.</li><li>Enhanced user engagement and brand visibility.</li></ul>",
@@ -132,7 +132,7 @@ export const items: Array<Project> = [
 		type: 'In-house Project',
 	},
 	{
-		slug: 'Lipton',
+		slug: 'lipton',
 		color: '#ff3e00',
 		description:
 			"<p>Lipton's website is focused on tea products, offering information about Lipton's tea varieties, recipes, and health benefits. It provides users with resources to explore tea-related content and promotions.</p><h4>Responsibilities:</h4><ul><li>Utilized AEM to create and integrate multiple modules.</li><li>Collaborated with design and marketing teams.</li></ul>",
@@ -148,7 +148,7 @@ export const items: Array<Project> = [
 		type: 'In-house Project',
 	},
 	{
-		slug: 'EBM',
+		slug: 'ebm',
 		color: '#ff3e00',
 		description:
 			"<p>EBM's website features information about its food products, recipes, and nutritional content. It offers users a platform to discover EBM's offerings and engage with food-related content.</p><h4>Responsibilities:</h4><ul><li>Developed and maintained backend functionalities.</li><li>Conducted thorough testing and quality assurance.</li></ul>",
@@ -196,7 +196,7 @@ export const items: Array<Project> = [
 		type: 'In-house Project',
 	},
 	{
-		slug: 'MartinDow',
+		slug: 'martindow',
 		color: '#ff3e00',
 		description:
 			"<p>MartinDow's website showcases its pharmaceutical products, research initiatives, and corporate information. It offers users resources to explore MartinDow's healthcare offerings.</p><h4>Responsibilities:</h4><ul><li>Led redesign and redevelopment efforts.</li><li>Conducted user testing and feedback sessions.</li></ul>",
@@ -212,7 +212,7 @@ export const items: Array<Project> = [
 		type: 'In-house Project',
 	},
 	{
-		slug: 'Searle',
+		slug: 'searle',
 		color: '#ff3e00',
 		description:
 			"<p>Searle's website features information about its pharmaceutical products, medical research, and healthcare services. It provides users with resources to learn about Searle's healthcare solutions.</p><h4>Responsibilities:</h4><ul><li>Managed backend features and integrations.</li><li>Implemented data management solutions.</li></ul>",
@@ -228,7 +228,7 @@ export const items: Array<Project> = [
 		type: 'In-house Project',
 	},
 	{
-		slug: 'Khaadi',
+		slug: 'khaadi',
 		color: '#ff3e00',
 		description:
 			"<p>Khaadi's website is focused on fashion products, offering clothing, accessories, and home decor. It provides users with a platform to shop for Khaadi's products and engage with fashion trends.</p><h4>Responsibilities:</h4><ul><li>Contributed to the development of specific website features.</li><li>Enhanced user engagement and sales efforts.</li></ul>",
@@ -244,7 +244,7 @@ export const items: Array<Project> = [
 		type: 'In-house Project',
 	},
 	{
-		slug: 'IoBM',
+		slug: 'iobm',
 		color: '#ff3e00',
 		description:
 			"<p>IoBM's website features information about the institute, academic programs, and student resources. It offers users tools for exploring educational opportunities and engaging with IoBM's community.</p><h4>Responsibilities:</h4><ul><li>Managed backend features, maintenance, and development related to IoBM's services.</li><li>Collaborated with IoBM to enhance backend functionalities, improving overall operational efficiency and user experience.</li></ul>",

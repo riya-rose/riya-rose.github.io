@@ -19,7 +19,7 @@ export const items: Array<Experience> = [
 		shortDescription: 'As a PHP Developer at Symmetry Digital, I developed and integrated efficient PHP modules for web application back-end functionality. Leveraging JavaScript and jQuery, I created engaging user experiences. Managed MySQL databases for data storage and functionality. Contributed to research for technology improvements. Conducted troubleshooting for optimal performance. Monitored site performance, collaborated with front-end teams, and enhanced features for better user experience.'
 	},
 	{
-		slug: 'backend-developer',
+		slug: 'backend-intern',
 		company: 'Horizon Technologies',
 		description: 'At Horizon Technologies, during my internship as a Backend Web Developer, I optimized PHP modules, integrated RESTful APIs into Laravel applications, and conducted code reviews to improve performance. Utilizing JavaScript and jQuery, I crafted engaging user experiences and ensured streamlined data management with MySQL. I diagnosed and resolved bugs, managed version control with Git, and created comprehensive documentation for seamless knowledge transfer.',
 		contract: ContractType.Internship,

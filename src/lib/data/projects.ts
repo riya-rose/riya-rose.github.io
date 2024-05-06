@@ -13,6 +13,9 @@ export const items: Array<Project> = [
 		links: [{ to: '#', label: 'In-house' }],
 		logo: Assets.Mobits,
 		name: 'Mobits',
+		period: {
+			from: new Date()
+		},
 		skills: getSkills('php', 'js', 'codeigniter', 'laravel', 'mysql', 'css', 'html'),
 		type: 'In-house Project'
 	},
@@ -26,6 +29,9 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.Survit,
 		name: 'Survit',
+		period: {
+			from: new Date()
+		},
 		skills: getSkills('php', 'js', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 		screenshots: [
@@ -65,6 +71,9 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.PSX,
 		name: 'PSX',
+		period: {
+			from: new Date()
+		},
 		skills: getSkills('php', 'js', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 	},
@@ -78,6 +87,9 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.Unilever,
 		name: 'Unilever',
+		period: {
+			from: new Date()
+		},
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 	},
@@ -91,6 +103,9 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.MCB,
 		name: 'MCB',
+		period: {
+			from: new Date()
+		},
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 	},
@@ -104,6 +119,9 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.HBL,
 		name: 'HBL',
+		period: {
+			from: new Date()
+		},
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 	},
@@ -117,6 +135,9 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.Jazz,
 		name: 'Jazz',
+		period: {
+			from: new Date()
+		},
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 	},
@@ -130,6 +151,9 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.Knorr,
 		name: 'Knorr',
+		period: {
+			from: new Date()
+		},
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 	},
@@ -143,6 +167,9 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.Lipton,
 		name: 'Lipton',
+		period: {
+			from: new Date()
+		},
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 	},
@@ -156,6 +183,9 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.EBM,
 		name: 'EBM',
+		period: {
+			from: new Date()
+		},
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 	},
@@ -169,6 +199,9 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.JSB,
 		name: 'JS Bank',
+		period: {
+			from: new Date()
+		},
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 	},
@@ -182,6 +215,9 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.Faysal,
 		name: 'Faysal Bank',
+		period: {
+			from: new Date()
+		},
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 	},
@@ -195,6 +231,9 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.Martin,
 		name: 'MartinDow',
+		period: {
+			from: new Date()
+		},
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 	},
@@ -208,6 +247,9 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.Searle,
 		name: 'Searle',
+		period: {
+			from: new Date()
+		},
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 	},
@@ -221,6 +263,9 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.Khaadi,
 		name: 'Khaadi',
+		period: {
+			from: new Date()
+		},
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 	},
@@ -234,6 +279,9 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.IoBM,
 		name: 'IoBM',
+		period: {
+			from: new Date()
+		},
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 	}

@@ -92,6 +92,7 @@ const Assets = {
 	MCB: a('mcb.webp'),
 	HBL: a('hbl.webp'),
 	EBM: a('ebm.webp'),
+	jQuery: a('jquery.svg'),
 };
 
 export default Assets;

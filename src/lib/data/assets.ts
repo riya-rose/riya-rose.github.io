@@ -95,7 +95,7 @@ const Assets = {
 	jQuery: a('jquery.svg'),
 	Unilever: a('unilever.webp'),
 	Knorr: a('knorr.svg'),
-	Lipton: a('sipton.svg'),
+	Lipton: a('lipton.svg'),
 	Searle: a('searle.png'),
 	IoBM: a('iobm.png'),
 };

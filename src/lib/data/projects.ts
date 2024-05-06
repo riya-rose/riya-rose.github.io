@@ -115,6 +115,150 @@ export const items: Array<Project> = [
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'In-house Project',
 	},
+	{
+		slug: 'knorr',
+		color: '#ff3e00',
+		description:
+			"<p>Knorr's website features recipes, cooking tips, and product information related to Knorr's food products. It offers a platform for users to discover new recipes and engage with the Knorr brand.</p><h4>Responsibilities:</h4><ul><li>Designed and implemented various website features and modules.</li><li>Enhanced user engagement and brand visibility.</li></ul>",
+		shortDescription:
+			"<p>Knorr's website features recipes, cooking tips, and product information related to Knorr's food products. It offers a platform for users to discover new recipes and engage with the Knorr brand.</p>",
+		links: [],
+		logo: Assets.Knorr,
+		name: 'Knorr',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		type: 'In-house Project',
+	},
+	{
+		slug: 'lipton',
+		color: '#ff3e00',
+		description:
+			"<p>Lipton's website is focused on tea products, offering information about Lipton's tea varieties, recipes, and health benefits. It provides users with resources to explore tea-related content and promotions.</p><h4>Responsibilities:</h4><ul><li>Utilized AEM to create and integrate multiple modules.</li><li>Collaborated with design and marketing teams.</li></ul>",
+		shortDescription:
+			"<p>Lipton's website is focused on tea products, offering information about Lipton's tea varieties, recipes, and health benefits. It provides users with resources to explore tea-related content and promotions.</p>",
+		links: [],
+		logo: Assets.Lipton,
+		name: 'Lipton',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		type: 'In-house Project',
+	},
+	{
+		slug: 'ebm',
+		color: '#ff3e00',
+		description:
+			"<p>EBM's website features information about its food products, recipes, and nutritional content. It offers users a platform to discover EBM's offerings and engage with food-related content.</p><h4>Responsibilities:</h4><ul><li>Developed and maintained backend functionalities.</li><li>Conducted thorough testing and quality assurance.</li></ul>",
+		shortDescription:
+			"<p>EBM's website features information about its food products, recipes, and nutritional content. It offers users a platform to discover EBM's offerings and engage with food-related content.</p>",
+		links: [],
+		logo: Assets.EBM,
+		name: 'EBM',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		type: 'In-house Project',
+	},
+	{
+		slug: 'js',
+		color: '#ff3e00',
+		description:
+			"<p>JS Bank's website provides banking services, financial products, and investment solutions. It offers users tools for managing their finances and accessing banking resources.</p><h4>Responsibilities:</h4><ul><li>Contributed to backend development tasks.</li><li>Implemented optimizations and enhancements.</li></ul>",
+		shortDescription:
+			"<p>JS Bank's website provides banking services, financial products, and investment solutions. It offers users tools for managing their finances and accessing banking resources.</p>",
+		links: [],
+		logo: Assets.JSB,
+		name: 'JS Bank',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		type: 'In-house Project',
+	},
+	{
+		slug: 'faysal',
+		color: '#ff3e00',
+		description:
+			"<p>Faysal Bank's website offers banking services, loan options, and financial solutions. It provides users with tools for online banking and account management.</p><h4>Responsibilities:</h4><ul><li>Worked on backend features critical to online banking.</li><li>Collaborated with stakeholders to gather requirements.</li></ul>",
+		shortDescription:
+			"<p>Faysal Bank's website offers banking services, loan options, and financial solutions. It provides users with tools for online banking and account management.</p>",
+		links: [],
+		logo: Assets.Faysal,
+		name: 'Faysal Bank',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		type: 'In-house Project',
+	},
+	{
+		slug: 'martindow',
+		color: '#ff3e00',
+		description:
+			"<p>MartinDow's website showcases its pharmaceutical products, research initiatives, and corporate information. It offers users resources to explore MartinDow's healthcare offerings.</p><h4>Responsibilities:</h4><ul><li>Led redesign and redevelopment efforts.</li><li>Conducted user testing and feedback sessions.</li></ul>",
+		shortDescription:
+			"<p>MartinDow's website showcases its pharmaceutical products, research initiatives, and corporate information. It offers users resources to explore MartinDow's healthcare offerings.</p>",
+		links: [],
+		logo: Assets.Martin,
+		name: 'MartinDow',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		type: 'In-house Project',
+	},
+	{
+		slug: 'searle',
+		color: '#ff3e00',
+		description:
+			"<p>Searle's website features information about its pharmaceutical products, medical research, and healthcare services. It provides users with resources to learn about Searle's healthcare solutions.</p><h4>Responsibilities:</h4><ul><li>Managed backend features and integrations.</li><li>Implemented data management solutions.</li></ul>",
+		shortDescription:
+			"<p>Searle's website features information about its pharmaceutical products, medical research, and healthcare services. It provides users with resources to learn about Searle's healthcare solutions.</p>",
+		links: [],
+		logo: Assets.Searle,
+		name: 'Searle',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		type: 'In-house Project',
+	},
+	{
+		slug: 'khaadi',
+		color: '#ff3e00',
+		description:
+			"<p>Khaadi's website is focused on fashion products, offering clothing, accessories, and home decor. It provides users with a platform to shop for Khaadi's products and engage with fashion trends.</p><h4>Responsibilities:</h4><ul><li>Contributed to the development of specific website features.</li><li>Enhanced user engagement and sales efforts.</li></ul>",
+		shortDescription:
+			"<p>Khaadi's website is focused on fashion products, offering clothing, accessories, and home decor. It provides users with a platform to shop for Khaadi's products and engage with fashion trends.</p>",
+		links: [],
+		logo: Assets.Khaadi,
+		name: 'Khaadi',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		type: 'In-house Project',
+	},
+	{
+		slug: 'iobm',
+		color: '#ff3e00',
+		description:
+			"<p>IoBM's website features information about the institute, academic programs, and student resources. It offers users tools for exploring educational opportunities and engaging with IoBM's community.</p><h4>Responsibilities:</h4><ul><li>Managed backend features, maintenance, and development related to IoBM's services.</li><li>Collaborated with IoBM to enhance backend functionalities, improving overall operational efficiency and user experience.</li></ul>",
+		shortDescription:
+			"<p>IoBM's website features information about the institute, academic programs, and student resources. It offers users tools for exploring educational opportunities and engaging with IoBM's community.</p>",
+		links: [],
+		logo: Assets.IoBM,
+		name: 'IoBM',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		type: 'In-house Project',
+	}
 ];
 
 export const title = 'Projects';

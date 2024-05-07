@@ -32,20 +32,6 @@ export const items: Array<Project> = [
 		type: 'In-house Project',
 	},
 	{
-		slug: 'psx',
-		color: '#ff3e00',
-		description:
-			"<p>The PSX website serves as a hub for stock market analysis, trading, and information related to Pakistan's stock exchange. It provides tools for market analysis, glossaries for stock exchange terms, and a comprehensive gallery of stock-related content.</p><h4>Responsibilities:</h4><ul><li>Managed and optimized the backend logic using ExpressionEngine CMS, ensuring smooth operations and performance.</li><li>Conducted regular maintenance tasks, including bug fixing and performance tuning, to uphold the website's reliability and user experience.</li><li>Developed key features such as market analysis tools, a comprehensive glossary for stock exchange terms, an interactive gallery, and otfunctionalities essential to stock exchange operations.</li></ul>",
-		shortDescription:
-			"The PSX website serves as a hub for stock market analysis, trading, and information related to Pakistan's stock exchange. It provides tools for market analysis, glossaries for stock exchange terms, and a comprehensive gallery of stock-related content.",
-		period: { from: new Date(2020, 0, 29), to: new Date(2024, 1, 5) },
-		links: [{ to: 'https://www.psx.com.pk/', label: 'PSX' }],
-		logo: Assets.PSX,
-		name: 'PSX',
-		skills: getSkills('php', 'js', 'mysql', 'css', 'html'),
-		type: 'Client Website',
-	},
-	{
 		slug: 'unilever',
 		color: '#ff3e00',
 		description:
@@ -56,48 +42,6 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.unilever.pk/', label: 'Unilever' }],
 		logo: Assets.Unilever,
 		name: 'Unilever',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
-		type: 'Client Website',
-	},
-	{
-		slug: 'mcb',
-		color: '#ff3e00',
-		description:
-			"<p>MCB's website is a comprehensive platform for banking services, including online banking, account management, and financial products. It provides users with tools to manage their finances efficiently.</p><h4>Responsibilities:</h4><ul><li>Managed backend features, maintenance, and development.</li><li>Developed and maintained specific backend functionalities for MCB.</li><li>Conducted rigorous testing and debugging.</li></ul>",
-		shortDescription:
-			"MCB's website is a comprehensive platform for banking services, including online banking, account management, and financial products. It provides users with tools to manage their finances efficiently.",
-		period: { from: new Date(2020, 0, 29), to: new Date(2024, 1, 5) },
-		links: [{ to: 'https://www.mcb.com.pk', label: 'MCB' }],
-		logo: Assets.MCB,
-		name: 'MCB',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
-		type: 'Client Website',
-	},
-	{
-		slug: 'hbl',
-		color: '#ff3e00',
-		description:
-			"<p>HBL's website offers a wide range of banking services, including loans, account management, and financial solutions. It provides users with easy access to banking tools and resources.</p><h4>Responsibilities:</h4><ul><li>Developed custom modules for loan calculation, form submissions, and data display.</li><li>Managed content and updates on the CMS.</li></ul>",
-		shortDescription:
-			"HBL's website offers a wide range of banking services, including loans, account management, and financial solutions. It provides users with easy access to banking tools and resources.",
-		period: { from: new Date(2020, 0, 29), to: new Date(2024, 1, 5) },
-		links: [{ to: 'https://www.hbl.com/', label: 'HBL' }],
-		logo: Assets.HBL,
-		name: 'HBL',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
-		type: 'Client Website',
-	},
-	{
-		slug: 'jazz',
-		color: '#ff3e00',
-		description:
-			"<p>Jazz's website is a portal for telecom services, offering mobile plans, internet packages, and digital solutions. It provides users with access to account management tools and customer support.</p><h4>Responsibilities:</h4><ul><li>Managed backend portal and synchronized website.</li><li>Created and managed APIs for user transactions.</li></ul>",
-		shortDescription:
-			"Jazz's website is a portal for telecom services, offering mobile plans, internet packages, and digital solutions. It provides users with access to account management tools and customer support.",
-		period: { from: new Date(2020, 0, 29), to: new Date(2024, 1, 5) },
-		links: [{ to: 'https://www.jazz.com.pk', label: 'Jazz' }],
-		logo: Assets.Jazz,
-		name: 'Jazz',
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'Client Website',
 	},
@@ -130,16 +74,58 @@ export const items: Array<Project> = [
 		type: 'Client Website',
 	},
 	{
-		slug: 'ebm',
+		slug: 'jazz',
 		color: '#ff3e00',
 		description:
-			"<p>EBM's website features information about its food products, recipes, and nutritional content. It offers users a platform to discover EBM's offerings and engage with food-related content.</p><h4>Responsibilities:</h4><ul><li>Developed and maintained backend functionalities.</li><li>Conducted thorough testing and quality assurance.</li></ul>",
+			"<p>Jazz's website is a portal for telecom services, offering mobile plans, internet packages, and digital solutions. It provides users with access to account management tools and customer support.</p><h4>Responsibilities:</h4><ul><li>Managed backend portal and synchronized website.</li><li>Created and managed APIs for user transactions.</li></ul>",
 		shortDescription:
-			"EBM's website features information about its food products, recipes, and nutritional content. It offers users a platform to discover EBM's offerings and engage with food-related content.",
+			"Jazz's website is a portal for telecom services, offering mobile plans, internet packages, and digital solutions. It provides users with access to account management tools and customer support.",
 		period: { from: new Date(2020, 0, 29), to: new Date(2024, 1, 5) },
-		links: [{ to: 'https://www.ebm.com.pk/', label: 'EBM' }],
-		logo: Assets.EBM,
-		name: 'EBM',
+		links: [{ to: 'https://www.jazz.com.pk', label: 'Jazz' }],
+		logo: Assets.Jazz,
+		name: 'Jazz',
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		type: 'Client Website',
+	},
+	{
+		slug: 'hbl',
+		color: '#ff3e00',
+		description:
+			"<p>HBL's website offers a wide range of banking services, including loans, account management, and financial solutions. It provides users with easy access to banking tools and resources.</p><h4>Responsibilities:</h4><ul><li>Developed custom modules for loan calculation, form submissions, and data display.</li><li>Managed content and updates on the CMS.</li></ul>",
+		shortDescription:
+			"HBL's website offers a wide range of banking services, including loans, account management, and financial solutions. It provides users with easy access to banking tools and resources.",
+		period: { from: new Date(2020, 0, 29), to: new Date(2024, 1, 5) },
+		links: [{ to: 'https://www.hbl.com/', label: 'HBL' }],
+		logo: Assets.HBL,
+		name: 'HBL',
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		type: 'Client Website',
+	},
+	{
+		slug: 'psx',
+		color: '#ff3e00',
+		description:
+			"<p>The PSX website serves as a hub for stock market analysis, trading, and information related to Pakistan's stock exchange. It provides tools for market analysis, glossaries for stock exchange terms, and a comprehensive gallery of stock-related content.</p><h4>Responsibilities:</h4><ul><li>Managed and optimized the backend logic using ExpressionEngine CMS, ensuring smooth operations and performance.</li><li>Conducted regular maintenance tasks, including bug fixing and performance tuning, to uphold the website's reliability and user experience.</li><li>Developed key features such as market analysis tools, a comprehensive glossary for stock exchange terms, an interactive gallery, and otfunctionalities essential to stock exchange operations.</li></ul>",
+		shortDescription:
+			"The PSX website serves as a hub for stock market analysis, trading, and information related to Pakistan's stock exchange. It provides tools for market analysis, glossaries for stock exchange terms, and a comprehensive gallery of stock-related content.",
+		period: { from: new Date(2020, 0, 29), to: new Date(2024, 1, 5) },
+		links: [{ to: 'https://www.psx.com.pk/', label: 'PSX' }],
+		logo: Assets.PSX,
+		name: 'PSX',
+		skills: getSkills('php', 'js', 'mysql', 'css', 'html'),
+		type: 'Client Website',
+	},
+	{
+		slug: 'mcb',
+		color: '#ff3e00',
+		description:
+			"<p>MCB's website is a comprehensive platform for banking services, including online banking, account management, and financial products. It provides users with tools to manage their finances efficiently.</p><h4>Responsibilities:</h4><ul><li>Managed backend features, maintenance, and development.</li><li>Developed and maintained specific backend functionalities for MCB.</li><li>Conducted rigorous testing and debugging.</li></ul>",
+		shortDescription:
+			"MCB's website is a comprehensive platform for banking services, including online banking, account management, and financial products. It provides users with tools to manage their finances efficiently.",
+		period: { from: new Date(2020, 0, 29), to: new Date(2024, 1, 5) },
+		links: [{ to: 'https://www.mcb.com.pk', label: 'MCB' }],
+		logo: Assets.MCB,
+		name: 'MCB',
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'Client Website',
 	},
@@ -154,6 +140,34 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.faysalbank.com/', label: 'Faysal' }],
 		logo: Assets.Faysal,
 		name: 'Faysal Bank',
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		type: 'Client Website',
+	},
+	{
+		slug: 'iobm',
+		color: '#ff3e00',
+		description:
+			"<p>IoBM's website features information about the institute, academic programs, and student resources. It offers users tools for exploring educational opportunities and engaging with IoBM's community.</p><h4>Responsibilities:</h4><ul><li>Managed backend features, maintenance, and development related to IoBM's services.</li><li>Collaborated with IoBM to enhance backend functionalities, improving overall operational efficiency and user experience.</li></ul>",
+		shortDescription:
+			"IoBM's website features information about the institute, academic programs, and student resources. It offers users tools for exploring educational opportunities and engaging with IoBM's community.",
+		period: { from: new Date(2020, 0, 29), to: new Date(2024, 1, 5) },
+		links: [{ to: 'https://www.iobm.edu.pk', label: 'IoBM' }],
+		logo: Assets.IoBM,
+		name: 'IoBM',
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		type: 'Client Website',
+	},
+	{
+		slug: 'ebm',
+		color: '#ff3e00',
+		description:
+			"<p>EBM's website features information about its food products, recipes, and nutritional content. It offers users a platform to discover EBM's offerings and engage with food-related content.</p><h4>Responsibilities:</h4><ul><li>Developed and maintained backend functionalities.</li><li>Conducted thorough testing and quality assurance.</li></ul>",
+		shortDescription:
+			"EBM's website features information about its food products, recipes, and nutritional content. It offers users a platform to discover EBM's offerings and engage with food-related content.",
+		period: { from: new Date(2020, 0, 29), to: new Date(2024, 1, 5) },
+		links: [{ to: 'https://www.ebm.com.pk/', label: 'EBM' }],
+		logo: Assets.EBM,
+		name: 'EBM',
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'Client Website',
 	},
@@ -199,20 +213,6 @@ export const items: Array<Project> = [
 		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
 		type: 'Client Website',
 	},
-	{
-		slug: 'iobm',
-		color: '#ff3e00',
-		description:
-			"<p>IoBM's website features information about the institute, academic programs, and student resources. It offers users tools for exploring educational opportunities and engaging with IoBM's community.</p><h4>Responsibilities:</h4><ul><li>Managed backend features, maintenance, and development related to IoBM's services.</li><li>Collaborated with IoBM to enhance backend functionalities, improving overall operational efficiency and user experience.</li></ul>",
-		shortDescription:
-			"IoBM's website features information about the institute, academic programs, and student resources. It offers users tools for exploring educational opportunities and engaging with IoBM's community.",
-		period: { from: new Date(2020, 0, 29), to: new Date(2024, 1, 5) },
-		links: [{ to: 'https://www.iobm.edu.pk', label: 'IoBM' }],
-		logo: Assets.IoBM,
-		name: 'IoBM',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
-		type: 'Client Website',
-	}
 ];
 
 export const title = 'Projects';

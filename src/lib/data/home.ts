@@ -8,7 +8,7 @@ export const name = 'Jude';
 export const lastName = 'Lobo';
 
 export const description =
-	'An experienced Web Developer with 4 years of proficient experience in PHP Programming, specializing in Laravel, and CodeIgniter Frameworks. Seeking to leverage my expertise in JavaScript (JS), jQuery MySQL, and API Development to contribute to innovative web projects. Dedicated to optimizing web application performance and enhancing user experience through collaborative problem-solving and continuous learning of emerging technologies. Committed to delivering high-quality, scalable solutions while fostering teamwork and creativity in a dynamic work environment.  ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	'An experienced Web Developer with 4 years of proficient experience in PHP Programming, specializing in Laravel, and CodeIgniter Frameworks. Seeking to leverage my expertise in JavaScript (JS), jQuery MySQL, and API Development to contribute to innovative web projects. Dedicated to optimizing web application performance and enhancing user experience through collaborative problem-solving and continuous learning of emerging technologies. Committed to delivering high-quality, scalable solutions while fostering teamwork and creativity in a dynamic work environment.';
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/jude-lobo' },

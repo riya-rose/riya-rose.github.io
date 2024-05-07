@@ -18,7 +18,7 @@ export const items: Array<Education> = [
 		degree: 'Bachelors in Software Engineering',
 		description: '',
 		location: 'Pakistan',
-		logo: Assets.Unknown,
+		logo: Assets.Iqra,
 		name: '',
 		organization: 'IQRA University',
 		period: { from: new Date(2015, 4, 1), to: new Date(2019, 11, 1) },

@@ -3,27 +3,27 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Post Graduate Diploma.',
+		degree: 'Masters in Mass Communications and Media Studies ',
 		description: '',
 		location: 'Pakistan',
 		logo: Assets.VUni,
 		name: '',
-		organization: 'Virtual University of Pakistan',
-		period: { from: new Date(2021, 3, 1), to: new Date(2022, 3, 1) },
+		organization: 'Greenwich University ',
+		period: { from: new Date(2020, 1), to: new Date(2024, 1) },
 		shortDescription: '',
-		slug: 'virtual-university',
+		slug: 'greenwich-university',
 		subjects: []
 	},
 	{
-		degree: 'Bachelors in Software Engineering',
+		degree: 'Bachelors in Mass Communications and Media Studies',
 		description: '',
 		location: 'Pakistan',
 		logo: Assets.Iqra,
 		name: '',
-		organization: 'IQRA University',
-		period: { from: new Date(2015, 4, 1), to: new Date(2019, 11, 1) },
+		organization: 'Greenwich University',
+		period: { from: new Date(2016, 1), to: new Date(2019, 1) },
 		shortDescription: '',
-		slug: 'iqra-university',
+		slug: 'greenwich-university',
 		subjects: []
 	},
 ];

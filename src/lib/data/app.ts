@@ -1,1 +1,1 @@
-export const titleSuffix = 'Jude Lobo - Backend PHP Developer';
+export const titleSuffix = 'Riya Rose - Social Media Manager';

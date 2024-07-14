@@ -15,7 +15,7 @@ export const items: Array<Experience> = [
 		name: 'Social Media Manager, Marketing',
 		color: 'red',
 		links: [],
-		logo: Assets.arydigital,
+		logo: Assets.Horizon,
 		shortDescription: 'Led comprehensive social media campaigns for ARY Digital and A Sports, driving engagement and brand visibility. Directed content strategy and production, collaborating closely with graphic designers and social media teams'
 	},
 	{
@@ -45,7 +45,7 @@ export const items: Array<Experience> = [
 		name: 'Marketing Executive',
 		color: 'red',
 		links: [],
-		logo: Assets.arydigital,
+		logo: Assets.Horizon,
 		shortDescription: 'Executed marketing campaigns at ARY Digital, guiding content direction and overseeing graphic design to promote dramas, sports events, and films. Coordinated with internal teams and external partners to ensure effective campaign execution'
 	},
 	{

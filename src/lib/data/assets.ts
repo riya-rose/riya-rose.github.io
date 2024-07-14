@@ -71,8 +71,7 @@ const Assets = {
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
-	Iqra: a('iqra.svg'),
-	VUni: a('vu.svg'),
+	Greenwich: a('greenwich.svg'),
 	PHP: a('php.svg'),
 	MySQL: a('mysql.svg'),
 	Laravel: a('laravel.svg'),
@@ -98,6 +97,7 @@ const Assets = {
 	Lipton: a('lipton.svg'),
 	Searle: a('searle.png'),
 	IoBM: a('iobm.png'),
+	arydigital: a('ary-digital.png'),
 };
 
 export default Assets;

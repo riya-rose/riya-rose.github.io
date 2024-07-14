@@ -15,22 +15,8 @@ export const items: Array<Experience> = [
 		name: 'Social Media Manager, Marketing',
 		color: 'red',
 		links: [],
-		logo: Assets.Symmetry,
+		logo: Assets.arydigital,
 		shortDescription: 'Led comprehensive social media campaigns for ARY Digital and A Sports, driving engagement and brand visibility. Directed content strategy and production, collaborating closely with graphic designers and social media teams'
-	},{
-		slug: 'marketing-executive',
-		company: 'ARY Digital Network',
-		description: 'Executed marketing campaigns at ARY Digital, guiding content direction and overseeing graphic design to promote dramas, sports events, and films. Coordinated with internal teams and external partners to ensure effective campaign execution and brand alignment across various media platforms. Monitored campaign performance and adjusted strategies to optimize engagement and reach.',
-		contract: ContractType.FullTime,
-		type: 'Marketing Executive',
-		location: 'Karachi, Pakistan',
-		period: { from: new Date(2021, 4), to: new Date(2022, 12) },
-		skills: getSkills('php', 'js', 'codeigniter', 'laravel', 'mysql', 'css', 'html'),
-		name: 'Marketing Executive',
-		color: 'red',
-		links: [],
-		logo: Assets.Symmetry,
-		shortDescription: 'Executed marketing campaigns at ARY Digital, guiding content direction and overseeing graphic design to promote dramas, sports events, and films. Coordinated with internal teams and external partners to ensure effective campaign execution'
 	},
 	{
 		slug: 'senior-creative-associate',
@@ -46,6 +32,21 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Horizon,
 		shortDescription: 'Spearheaded idea generation, concept development, and copywriting initiatives for prestigious brands including HBL, P&G, Unilever, and Colgate-Palmolive. Managed end-to-end digital campaigns, contributing to global client pitches'
+	},
+	{
+		slug: 'marketing-executive',
+		company: 'ARY Digital Network',
+		description: 'Executed marketing campaigns at ARY Digital, guiding content direction and overseeing graphic design to promote dramas, sports events, and films. Coordinated with internal teams and external partners to ensure effective campaign execution and brand alignment across various media platforms. Monitored campaign performance and adjusted strategies to optimize engagement and reach.',
+		contract: ContractType.FullTime,
+		type: 'Marketing Executive',
+		location: 'Karachi, Pakistan',
+		period: { from: new Date(2021, 4), to: new Date(2022, 12) },
+		skills: getSkills('php', 'js', 'codeigniter', 'laravel', 'mysql', 'css', 'html'),
+		name: 'Marketing Executive',
+		color: 'red',
+		links: [],
+		logo: Assets.arydigital,
+		shortDescription: 'Executed marketing campaigns at ARY Digital, guiding content direction and overseeing graphic design to promote dramas, sports events, and films. Coordinated with internal teams and external partners to ensure effective campaign execution'
 	},
 	{
 		slug: 'community-manager',

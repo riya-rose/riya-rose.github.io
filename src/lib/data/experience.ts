@@ -18,7 +18,7 @@ export const items: Array<Experience> = [
 		logo: Assets.Symmetry,
 		shortDescription: 'Led comprehensive social media campaigns for ARY Digital and A Sports, driving engagement and brand visibility. Directed content strategy and production, collaborating closely with graphic designers and social media teams'
 	},{
-		slug: 'social-media-manager',
+		slug: 'marketing-executive',
 		company: 'ARY Digital Network',
 		description: 'Executed marketing campaigns at ARY Digital, guiding content direction and overseeing graphic design to promote dramas, sports events, and films. Coordinated with internal teams and external partners to ensure effective campaign execution and brand alignment across various media platforms. Monitored campaign performance and adjusted strategies to optimize engagement and reach.',
 		contract: ContractType.FullTime,
@@ -26,7 +26,7 @@ export const items: Array<Experience> = [
 		location: 'Karachi, Pakistan',
 		period: { from: new Date(2021, 4), to: new Date(2022, 12) },
 		skills: getSkills('php', 'js', 'codeigniter', 'laravel', 'mysql', 'css', 'html'),
-		name: 'Social Media Manager, Marketing',
+		name: 'Marketing Executive',
 		color: 'red',
 		links: [],
 		logo: Assets.Symmetry,

@@ -71,7 +71,7 @@ const Assets = {
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
-	Greenwich: a('greenwich.svg'),
+	Greenwich: a('greenwich.png'),
 	PHP: a('php.svg'),
 	MySQL: a('mysql.svg'),
 	Laravel: a('laravel.svg'),

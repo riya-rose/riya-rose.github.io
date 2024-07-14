@@ -37,7 +37,7 @@
 				class="ml-2 text-md font-bold hidden md:inline overflow-hidden whitespace-nowrap text-ellipsis"
 				>{HOME.name} {HOME.lastName}
 			</span> -->
-			<img src="${a('logo.png')}" alt="Myself">
+			<img src={`${a('logo.png')}`} alt="Myself">
 		</a>
 		<div class="flex-1 block overflow-hidden md:hidden whitespace-nowrap text-ellipsis text-center">
 			{HOME.name}

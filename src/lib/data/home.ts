@@ -1,5 +1,6 @@
 import { Platform } from '$lib/types';
-import { getSkills } from './skills';
+// import { getSkills } from './skills';
+import { getProjects } from './projects';
 
 export const title = 'Home';
 
@@ -30,4 +31,5 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	},
 ];
 
-export const skills = getSkills('php', 'js', 'codeigniter', 'laravel', 'mysql', 'css', 'html');
+// export const skills = getSkills('php', 'js', 'codeigniter', 'laravel', 'mysql', 'css', 'html');
+export const projects = getProjects('unilever', 'knorr', 'lipton', 'jazz', 'hbl', 'searle', 'khaadi');

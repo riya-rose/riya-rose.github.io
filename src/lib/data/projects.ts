@@ -1,6 +1,7 @@
 import Assets from './assets';
 import { getSkills } from './skills';
 import type { Project } from '../types';
+import { omit, type StringWithAutoComplete } from '@riadh-adrani/utils';
 
 export const items: Array<Project> = [
 	{
@@ -214,5 +215,9 @@ export const items: Array<Project> = [
 		type: 'Client Website',
 	},
 ];
+
+export const getProjects = (
+	...slugs: Array<StringWithAutoComplete<(typeof items)[number]['slug']>>
+): Array<Project> => items.filter((it) => slugs.includes(it.slug));
 
 export const title = 'Projects';

@@ -3,8 +3,9 @@
 	import Icon from '$lib/components/Icon/Icon.svelte';
 	import MainTitle from '$lib/components/MainTitle/MainTitle.svelte';
 	import { titleSuffix } from '@data/app';
-	import { links, description, lastName, name, title, skills } from '@data/home';
-	import { items as skillsItems } from '@data/skills';
+	import { links, description, lastName, name, title, projects } from '@data/home';
+	// import { items as skillsItems } from '@data/skills';
+	import { items as projectItems } from '@data/projects';
 	import { useTitle } from '$lib/utils/helpers';
 	import { isBlank } from '@riadh-adrani/utils';
 	import { getPlatfromIcon } from '$lib/utils';
@@ -41,5 +42,6 @@
 			{/each}
 		</div>
 	</div>
-	<Carrousel items={skills ?? skillsItems} />
+	<!-- <Carrousel items={skills ?? skillsItems} /> -->
+	<Carrousel items={projects ?? projectItems} />
 </div>

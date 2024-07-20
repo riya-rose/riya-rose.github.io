@@ -124,6 +124,9 @@ const Assets = {
 	Wheatable: a('wheatable.png'),
 	EngroFoundation: a('engro-foundation.webp'),
 	MissionPakistan: a('mission-pakistan.png'),
+	EastRiver: a('east-river.png'),
+	SamaaTV: a('samaa-tv.png'),
+	ExpressNews: a('express-news.png'),
 };
 
 export default Assets;

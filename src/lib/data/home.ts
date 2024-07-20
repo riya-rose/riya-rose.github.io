@@ -32,4 +32,4 @@ export const links: Array<{ platform: Platform; link: string }> = [
 ];
 
 // export const skills = getSkills('php', 'js', 'codeigniter', 'laravel', 'mysql', 'css', 'html');
-export const projects = getProjects('unilever', 'knorr', 'lipton', 'jazz', 'hbl', 'searle', 'khaadi');
+export const projects = getProjects('ary-digital', 'asports', 'ary-zindagi', 'ary-zap', 'karachi-kings', 'always', 'ariel', 'head-and-shoulders', 'gillette', 'pantene', 'rafhan', 'hellmanns', 'gluco-juniors', 'pampers', 'lemon-max');

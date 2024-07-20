@@ -77,7 +77,7 @@ const Assets = {
 	MySQL: a('mysql.svg'),
 	Laravel: a('laravel.svg'),
 	CodeIgniter: a('codeigniter.svg'),
-	Symmetry: a('symmetry.webp'),
+	Symmetry: a('symmetry.png'),
 	Horizon: a('horizon.png'),
 	Mobits: a('mobit.svg'),
 	Survit: a('survit.svg'),

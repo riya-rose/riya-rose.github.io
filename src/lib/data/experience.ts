@@ -10,7 +10,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Social Media Manager',
 		location: 'Karachi, Pakistan',
-		period: { from: new Date(2022, 7, 1) },
+		period: { from: new Date(2022, 7, 1), to: new Date(2024, 6) },
 		skills: getSkills('php', 'js', 'codeigniter', 'laravel', 'mysql', 'css', 'html'),
 		name: 'Social Media Manager, Marketing',
 		color: 'red',

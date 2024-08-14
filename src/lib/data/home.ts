@@ -14,9 +14,9 @@ export const lastName = 'Rose';
 export const description =
 `A seasoned digital marketer and content strategist with a robust background in managing social media for leading brands. 
 
-Previously the lead Social Media Manager at ARY Digital Network, managing major accounts like ARY Digital, ASports, and Karachi Kings. I developed content strategies, coordinated project launches, and worked closely with cross-functional teams to maintain consistent brand representation.
+Previously the lead Social Media Manager at ARY Digital Network, managing major accounts like ARY Digital, ASports, and Karachi Kings. I developed digital strategies, coordinated project launches, and worked closely with cross-functional teams to maintain consistent brand representation.
 
-With a strong track record in ideation, copywriting, and campaign management, I thrive in dynamic environments where creativity meets strategic execution.`;
+Possessing a strong track record in ideation, copywriting, and campaign management, I thrive in dynamic environments where creativity meets strategic execution.`;
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	// { platform: Platform.GitHub, link: 'https://github.com/jude-lobo' },

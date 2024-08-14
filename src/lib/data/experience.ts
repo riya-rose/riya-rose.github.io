@@ -25,7 +25,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Senior Creative Associate',
 		location: 'Karachi, Pakistan',
-		period: { from: new Date(2021, 10), to: new Date(2022, 2)},
+		period: { from: new Date(2021, 10, 1), to: new Date(2022, 2, 31)},
 		skills: getSkills('php', 'js', 'laravel', 'mysql', 'css', 'html'),
 		name: 'Senior Creative Associate',
 		color: 'blue',

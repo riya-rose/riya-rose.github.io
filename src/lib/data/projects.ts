@@ -12,7 +12,7 @@ export const items: Array<Project> = [
 		shortDescription:
 			"ARY Digital is a leading Pakistani television channel offering a diverse range of entertainment programs, including dramas, talk shows, reality shows, and movies. It is known for its high-quality content and broad appeal across various age groups.",
 		// period: { from: new Date(2020, 0, 29), to: new Date(2020, 0, 29) },
-		links: [{ to: 'https://arydigital.tv/', label: 'In-house' }],
+		links: [{ to: 'https://arydigital.tv/', label: 'ARY Digital' }],
 		logo: Assets.ARYDigital,
 		name: 'ARY Digital',
 		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation', 'social-media-management', 'concept-development'),

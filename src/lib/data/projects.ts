@@ -8,9 +8,9 @@ export const items: Array<Project> = [
 		slug: 'ary-digital',
 		color: '#D9001D',
 		description:
-			"<p>ARY Zindagi is a popular Pakistani entertainment TV channel that offers a variety of content including dramas, sitcoms, talk shows, and reality programs, appealing to a wide range of audiences.</li><ul>",
+			"<p>ARY Digital is a leading Pakistani television channel offering a diverse range of entertainment programs, including dramas, talk shows, reality shows, and movies. It is known for its high-quality content and broad appeal across various age groups.</p>",
 		shortDescription:
-			"ARY Zindagi is a popular Pakistani entertainment TV channel that offers a variety of content including dramas, sitcoms, talk shows, and reality programs, appealing to a wide range of audiences.",
+			"ARY Digital is a leading Pakistani television channel offering a diverse range of entertainment programs, including dramas, talk shows, reality shows, and movies. It is known for its high-quality content and broad appeal across various age groups.",
 		period: { from: new Date(2020, 0, 29), to: new Date(2024, 1, 5) },
 		links: [{ to: 'https://arydigital.tv/', label: 'In-house' }],
 		logo: Assets.ARYDigital,

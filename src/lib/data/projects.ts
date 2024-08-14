@@ -20,27 +20,27 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'screen 1',
-				src: 'https://drive.google.com/file/d/1BSoRtH3CXqNuULzeP1Efylr6G9HW06_J/view?usp=drive_link'
+				src: 'https://drive.google.com/file/d/1BSoRtH3CXqNuULzeP1Efylr6G9HW06_J/preview'
 			},
 			{
 				label: '2',
-				src: 'https://drive.google.com/file/d/1mzZYfrTcPumF2DmsUaZHQX_saPOXS90e/view?usp=drive_link'
+				src: 'https://drive.google.com/file/d/1mzZYfrTcPumF2DmsUaZHQX_saPOXS90e/preview'
 			},
 			{
 				label: '3',
-				src: 'https://drive.google.com/file/d/1pIr-98mHzOIYqh-6vJ1sIJNIZnYhaMDR/view?usp=drive_link'
+				src: 'https://drive.google.com/file/d/1pIr-98mHzOIYqh-6vJ1sIJNIZnYhaMDR/preview'
 			},
 			{
 				label: '4',
-				src: 'https://drive.google.com/file/d/1w9EwzTTpTvnLvznP34ectZyWQUuGitSy/view?usp=drive_link'
+				src: 'https://drive.google.com/file/d/1w9EwzTTpTvnLvznP34ectZyWQUuGitSy/preview'
 			},
 			{
 				label: '5',
-				src: 'https://drive.google.com/file/d/1az0Gq2ucNHUeXVpdOQE68cBCL6Ky9KhI/view?usp=drive_link'
+				src: 'https://drive.google.com/file/d/1az0Gq2ucNHUeXVpdOQE68cBCL6Ky9KhI/preview'
 			},
 			{
 				label: '6',
-				src: 'https://drive.google.com/file/d/1CqtXB_IVJ8TbiNNbTLiQj8p_hp9CXfEv/view?usp=drive_lin'
+				src: 'https://drive.google.com/file/d/1CqtXB_IVJ8TbiNNbTLiQj8p_hp9CXfEv/preview'
 			},
 		],
 	},

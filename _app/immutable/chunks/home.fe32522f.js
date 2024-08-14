@@ -1,4 +1,4 @@
-import{P as a}from"./types.1ebf2f37.js";import{g as e}from"./projects.da564010.js";const t="Home",o="Riya",s="Rose",r=`A seasoned digital marketer and content strategist with a robust background in managing social media for leading brands. 
+import{P as a}from"./types.1ebf2f37.js";import{g as e}from"./projects.6fb2b500.js";const t="Home",o="Riya",s="Rose",r=`A seasoned digital marketer and content strategist with a robust background in managing social media for leading brands. 
 
 Previously the lead Social Media Manager at ARY Digital Network, managing major accounts like ARY Digital, ASports, and Karachi Kings. I developed digital strategies, coordinated project launches, and worked closely with cross-functional teams to maintain consistent brand representation.
 

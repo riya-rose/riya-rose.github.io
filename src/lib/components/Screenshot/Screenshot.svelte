@@ -36,7 +36,7 @@
 				class="aspect-video col bg-contain w-100% rounded-xl bg-no-repeat bg-contains bg-center"
 				>
 			
-				<iframe style="pointer-events: none;" src={`${screenshot?.src}`} width="640" height="480" allow="autoplay"></iframe>
+				<iframe style="display:block;" src={`${screenshot?.src}`} width="640" height="480" allow="autoplay"></iframe>
 				<p
 					class="font-italic m-t-auto m-x-auto m-b-5 inline-flex bg-[var(--main-60)] border-solid border-1px border-[var(--border)] p-x-5 p-2 rounded-xl"
 				>

@@ -19,21 +19,27 @@ export const items: Array<Project> = [
 		type: 'In-house',
 		screenshots: [
 			{
+				label: '',
 				src: 'https://drive.google.com/file/d/1BSoRtH3CXqNuULzeP1Efylr6G9HW06_J/preview'
 			},
 			{
+				label: '',
 				src: 'https://drive.google.com/file/d/1mzZYfrTcPumF2DmsUaZHQX_saPOXS90e/preview'
 			},
 			{
+				label: '',
 				src: 'https://drive.google.com/file/d/1pIr-98mHzOIYqh-6vJ1sIJNIZnYhaMDR/preview'
 			},
 			{
+				label: '',
 				src: 'https://drive.google.com/file/d/1w9EwzTTpTvnLvznP34ectZyWQUuGitSy/preview'
 			},
 			{
+				label: '',
 				src: 'https://drive.google.com/file/d/1az0Gq2ucNHUeXVpdOQE68cBCL6Ky9KhI/preview'
 			},
 			{
+				label: '',
 				src: 'https://drive.google.com/file/d/1CqtXB_IVJ8TbiNNbTLiQj8p_hp9CXfEv/preview'
 			},
 		],
@@ -51,6 +57,28 @@ export const items: Array<Project> = [
 		name: 'ASports',
 		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation', 'social-media-management', 'concept-development'),
 		type: 'In-house',
+		screenshots: [
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1BmaW7B1QsjlgrVJVa-yq31TtevbXUoL_/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1BvNYRxROtm4j2x-IR7MJw-u1VpuRS8Pe/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1BwF3ug4X9SB9cgFc-8hQql9Qhxx9JuHd/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1BgmXNxML4QV41JQviLS3rrhmPLBLaqdL/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1BysS2UJPwoZ-SSbrzTo1S8_gHQRCDp_d/preview'
+			},
+		],
 	},
 	{
 		slug: 'ary-zindagi',
@@ -65,6 +93,32 @@ export const items: Array<Project> = [
 		name: 'ARY Zindagi',
 		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation', 'social-media-management'),
 		type: 'In-house',
+		screenshots: [
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1BSoRtH3CXqNuULzeP1Efylr6G9HW06_J/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1mzZYfrTcPumF2DmsUaZHQX_saPOXS90e/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1pIr-98mHzOIYqh-6vJ1sIJNIZnYhaMDR/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1w9EwzTTpTvnLvznP34ectZyWQUuGitSy/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1az0Gq2ucNHUeXVpdOQE68cBCL6Ky9KhI/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1CqtXB_IVJ8TbiNNbTLiQj8p_hp9CXfEv/preview'
+			},
+		],
 	},
 	{
 		slug: 'ary-zap',
@@ -79,6 +133,28 @@ export const items: Array<Project> = [
 		name: 'ARY Zap',
 		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation', 'social-media-management'),
 		type: 'In-house',
+		screenshots: [
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1CWqDEdFC8_0BTSgRo1L3ZErOYtn4Ee31/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1CVkBGxsunlFgZFMyLeVCk3MB_BmoQ7KJ/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1CQZvmWUp1K-n6qPsR4CZxKTp69mvZG-k/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1CdwU-2y7oLoFrHn8k-jKqu2ZXueMZHFs/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1CbMuD5NO-nGN3LoWzWUkUusEPMxm1TLF/preview'
+			},
+		],
 	},
 	{
 		slug: 'karachi-kings',
@@ -93,6 +169,20 @@ export const items: Array<Project> = [
 		name: 'Karachi Kings',
 		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation', 'social-media-management'),
 		type: 'In-house',
+		screenshots: [
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1Cial5aguoZNAJuFt0VSZ516jJZrOfntD/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1CeA8qVeP7rVeFCX1371MBF3t2KERNMhF/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1CeGt0SNdI-Hj4KkYf_QT6zhDex2U1B4a/preview'
+			},
+		],
 	},
 	{
 		slug: 'always',
@@ -107,6 +197,20 @@ export const items: Array<Project> = [
 		name: 'Always',
 		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation'),
 		type: 'Client Website',
+		screenshots: [
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1CmPt_XSrGbnpUD7eGijGJ9KwiNsns7Qs/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1CzvAC7hKDZn1Ll1NRwlFdj78-wfOin1A/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1CkRwxiV5_jgIUslEK8iXITleVRKizGCZ/preview'
+			},
+		],
 	},
 	{
 		slug: 'ariel',
@@ -121,6 +225,20 @@ export const items: Array<Project> = [
 		name: 'Ariel',
 		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation'),
 		type: 'Client Website',
+		screenshots: [
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1CjXAsq5fCCg5r-ffF0W4fU1tPgyh05jj/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1CjjAb7evj4I-eSvM682BRCVGDiSvwU0u/preview'
+			},
+			{
+				label: '',
+				src: 'https://drive.google.com/file/d/1CjQh-uT1BA76k1QGM-H0_AAWbQyeR7Ww/preview'
+			},
+		],
 	},
 	{
 		slug: 'head-and-shoulders',

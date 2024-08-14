@@ -109,6 +109,7 @@
 									class="screenshot aspect-video bg-contain w-100% cursor-pointer"
 									style={`background-image: url(${item.src});`}
 								/>
+								<iframe src={`${item.src}`} width="640" height="480" allow="autoplay"></iframe>
 								<p class="text-[var(--tertiary-text)] font-300">{item.label}</p>
 							</div>
 						{/each}

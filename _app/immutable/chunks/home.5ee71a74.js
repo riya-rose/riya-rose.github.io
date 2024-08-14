@@ -1,5 +1,0 @@
-import{P as a}from"./types.1ebf2f37.js";import{g as i}from"./projects.41d2dd48.js";const t="Home",s="Riya",o="Rose",r=`A seasoned digital marketer and content strategist with a robust background in managing social media for leading brands. 
-
-Previously the lead Social Media Manager at ARY Digital Network, managing major accounts like ARY Digital, ASports, and Karachi Kings. I developed digital strategies, coordinated project launches, and worked closely with cross-functional teams to maintain consistent brand representation.
-
-Possessing a strong track record in ideation, copywriting, and campaign management, I thrive in dynamic environments where creativity meets strategic execution.`,l=[{platform:a.Linkedin,link:"https://www.linkedin.com/in/riya-rose/"},{platform:a.Email,link:"riyarose71@yahoo.com"}],c=i("ary-digital","asports","ary-zindagi","ary-zap","karachi-kings","always","ariel","head-and-shoulders","gillette","pantene","rafhan","hellmanns","gluco-juniors","pampers","lemon-max");export{l as a,r as d,o as l,s as n,c as p,t};

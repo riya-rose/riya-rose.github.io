@@ -128,6 +128,13 @@ const Assets = {
 	SamaaTV: a('samaa-tv.png'),
 	ExpressNews: a('express-news.png'),
 	AnneFrench: a('anne-french.jpg'),
+	ContentStrategy: a('content-strategy.png'),
+	SocialMediaManagement: a('social-media-management.png'),
+	DigitalCampaignCreation: a('digital-campaign-creation.png'),
+	Copywriting: a('copywriting.png'),
+	ConceptDevelopment: a('concept-development.png'),
+	ProjectManagement: a('project-management.png'),
+	CreativeIdeation: a('creative-ideation.png'),
 };
 
 export default Assets;

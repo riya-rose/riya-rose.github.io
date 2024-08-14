@@ -6,18 +6,10 @@ import { omit, type StringWithAutoComplete } from '@riadh-adrani/utils';
 const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCategory<S> => data;
 
 const categories = [
-	defineSkillCategory({ name: 'Programming Languages', slug: 'pro-lang' }),
-	defineSkillCategory({ name: 'Frameworks', slug: 'framework' }),
-	defineSkillCategory({ name: 'Libraries', slug: 'library' }),
-	defineSkillCategory({ name: 'Langauges', slug: 'lang' }),
-	defineSkillCategory({ name: 'Databases', slug: 'db' }),
-	defineSkillCategory({ name: 'ORMs', slug: 'orm' }),
-	defineSkillCategory({ name: 'DevOps', slug: 'devops' }),
-	defineSkillCategory({ name: 'Testing', slug: 'test' }),
-	defineSkillCategory({ name: 'Dev Tools', slug: 'devtools' }),
-	defineSkillCategory({ name: 'Markup & Style', slug: 'markup-style' }),
-	defineSkillCategory({ name: 'Design', slug: 'design' }),
-	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' })
+	defineSkillCategory({ name: 'Content Creation', slug: 'content-creation' }),
+	defineSkillCategory({ name: 'Digital Marketing', slug: 'digital-marketing' }),
+	defineSkillCategory({ name: 'Project Leadership', slug: 'project-leadership' }),
+	defineSkillCategory({ name: 'Creative Thinking', slug: 'creative-thinking' }),
 ] as const;
 
 const defineSkill = <S extends string>(
@@ -36,76 +28,67 @@ const defineSkill = <S extends string>(
 
 export const items = [
 	defineSkill({
-		slug: 'php',
-		color: 'purple',
+		slug: 'content-strategy',
+		color: '#2D3E50',
 		description:
-			'Proficient in developing dynamic web applications, creating efficient and scalable backend modules, and integrating with databases.',
-		logo: Assets.PHP,
-		name: 'PHP',
-		category: 'pro-lang'
+			'Developing comprehensive content plans to achieve client goals..',
+		logo: Assets.ContentStrategy,
+		name: 'Content Strategy',
+		category: 'content-creation'
 	}),
 	defineSkill({
-		slug: 'js',
-		color: 'yellow',
+		slug: 'copywriting',
+		color: '#5D5C61',
 		description:
-			'Capable of developing interactive and dynamic user interfaces, handling client-side functionalities, and integrating with backend systems.',
-		logo: Assets.JavaScript,
-		name: 'Javascript',
-		category: 'pro-lang'
+			'Crafting compelling, engaging content for various marketing channels keeping in line the individual voice of each client.',
+		logo: Assets.Copywriting,
+		name: 'Copywriting',
+		category: 'content-creation'
 	}),
 	defineSkill({
-		slug: 'laravel',
-		color: 'orange',
+		slug: 'concept-development',
+		color: '#8E44AD',
 		description:
-			"Experienced in leveraging Laravel's MVC architecture, ORM, and powerful features for rapid and robust web development.",
-		logo: Assets.Laravel,
-		name: 'Laravel',
-		category: 'framework'
+			'Generating innovative ideas for digital and television campaigns, products, or services.',
+		logo: Assets.ConceptDevelopment,
+		name: 'Concept Development',
+		category: 'content-creation'
 	}),
 	defineSkill({
-		slug: 'codeigniter',
-		color: 'orange',
+		slug: 'social-media-management',
+		color: '#1DA1F2',
 		description:
-			"Skilled in using CodeIgniter's lightweight framework for building high-performance web applications with ease.",
-		logo: Assets.CodeIgniter,
-		name: 'CodeIgniter',
-		category: 'framework'
+			'Managing and executing social media presence and campaigns.',
+		logo: Assets.SocialMediaManagement,
+		name: 'Social Media Management',
+		category: 'digital-marketing'
 	}),
 	defineSkill({
-		slug: 'mysql',
-		color: 'orange',
+		slug: 'digital-campaign-creation',
+		color: '#FF5733',
 		description:
-			'Proficient in designing and optimizing MySQL databases, writing complex queries, and ensuring data integrity and security.',
-		logo: Assets.MySQL,
-		name: 'MySQL',
-		category: 'pro-lang'
+			'Designing and implementing targeted online marketing campaigns.',
+		logo: Assets.DigitalCampaignCreation,
+		name: 'Digital Campaign Creation',
+		category: 'digital-marketing'
 	}),
 	defineSkill({
-		slug: 'css',
-		color: 'blue',
+		slug: 'project-management',
+		color: '#27AE60',
 		description:
-			'Skilled in creating responsive and visually appealing web designs, implementing styles, layouts, and animations for modern user experiences.',
-		logo: Assets.CSS,
-		name: 'CSS',
-		category: 'markup-style'
+			'Overseeing projects from planning to execution, ensuring timely delivery.',
+		logo: Assets.ProjectManagement,
+		name: 'Project Management',
+		category: 'project-leadership'
 	}),
 	defineSkill({
-		slug: 'html',
-		color: 'orange',
+		slug: 'creative-ideation',
+		color: '#F39C12',
 		description:
-			'Strong understanding of HTML markup language for structuring web pages and integrating content with CSS and JavaScript.',
-		logo: Assets.HTML,
-		name: 'HTML',
-		category: 'markup-style'
-	}),
-	defineSkill({
-		slug: 'jquery',
-		color: 'blue',
-		description:
-			'Experienced in utilizing jQuery for DOM manipulation, event handling, AJAX interactions, and simplifying JavaScript code.',
-		logo: Assets.jQuery,
-		name: 'jQuery',
-		category: 'library'
+			'Generating fresh, innovative ideas to solve marketing challenges.',
+		logo: Assets.CreativeIdeation,
+		name: 'Creative Ideation',
+		category: 'creative-thinking'
 	}),
 ] as const;
 

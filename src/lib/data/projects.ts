@@ -15,7 +15,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://arydigital.tv/', label: 'In-house' }],
 		logo: Assets.ARYDigital,
 		name: 'ARY Digital',
-		skills: getSkills('php', 'js', 'codeigniter', 'laravel', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation', 'social-media-management', 'concept-development'),
 		type: 'In-house',
 		screenshots: [
 			{
@@ -55,7 +55,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://a-sports.tv/', label: 'ASports' }],
 		logo: Assets.ASports,
 		name: 'ASports',
-		skills: getSkills('php', 'js', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation', 'social-media-management', 'concept-development'),
 		type: 'In-house',
 	},
 	{
@@ -69,7 +69,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://aryzindagi.tv/', label: 'ARY Zindagi' }],
 		logo: Assets.ARYZindagi,
 		name: 'ARY Zindagi',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation', 'social-media-management'),
 		type: 'In-house',
 	},
 	{
@@ -83,7 +83,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://aryzap.com/', label: 'ARY Zap' }],
 		logo: Assets.ARYZap,
 		name: 'ARY Zap',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation', 'social-media-management'),
 		type: 'In-house',
 	},
 	{
@@ -97,7 +97,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.instagram.com/karachikingsary', label: 'Karachi Kings' }],
 		logo: Assets.KarachiKings,
 		name: 'Karachi Kings',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation', 'social-media-management'),
 		type: 'In-house',
 	},
 	{
@@ -111,7 +111,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.instagram.com/always.pakistan/', label: 'Always' }],
 		logo: Assets.Always,
 		name: 'Always',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation'),
 		type: 'Client Website',
 	},
 	{
@@ -125,7 +125,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.instagram.com/ariel.pakistan', label: 'Ariel' }],
 		logo: Assets.Ariel,
 		name: 'Ariel',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation'),
 		type: 'Client Website',
 	},
 	{
@@ -139,7 +139,63 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.facebook.com/HeadandShouldersPakistan/', label: 'Head & Shoulders' }],
 		logo: Assets.HeadAndShoulders,
 		name: 'Head & Shoulders',
-		skills: getSkills('php', 'js', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation'),
+		type: 'Client Website',
+	},
+	{
+		slug: 'lipton',
+		color: '#FFD700',
+		description:
+			"<p>Lipton is a leading tea brand in Pakistan, offering a wide range of tea blends known for their quality and refreshing taste.</p>",
+		shortDescription:
+			"Lipton is a leading tea brand in Pakistan, offering a wide range of tea blends known for their quality and refreshing taste.",
+		period: { from: new Date(2020, 0, 29), to: new Date(2024, 1, 5) },
+		links: [{ to: 'https://www.instagram.com/lipton_pakistan/?hl=en', label: 'Lipton' }],
+		logo: Assets.Lipton,
+		name: 'Lipton',
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation'),
+		type: 'Client Website',
+	},
+	{
+		slug: 'knorr',
+		color: '#007A33',
+		description:
+			"<p>Knorr is a popular food brand in Pakistan, offering a variety of ready-made sauces, seasonings, soups, and noodles.</p>",
+		shortDescription:
+			"Knorr is a popular food brand in Pakistan, offering a variety of ready-made sauces, seasonings, soups, and noodles.",
+		period: { from: new Date(2020, 0, 29), to: new Date(2024, 1, 5) },
+		links: [{ to: 'https://www.unilever.pk/brands/nutrition/knorr/', label: 'Knorr' }],
+		logo: Assets.Knorr,
+		name: 'Knorr',
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation'),
+		type: 'Client Website',
+	},
+	{
+		slug: 'hbl',
+		color: '#007A33',
+		description:
+			"<p>HBL is one of Pakistan’s largest and oldest banks, offering a range of financial services including banking, loans, and investment products.</p>",
+		shortDescription:
+			"HBL is one of Pakistan’s largest and oldest banks, offering a range of financial services including banking, loans, and investment products.",
+		period: { from: new Date(2020, 0, 29), to: new Date(2024, 1, 5) },
+		links: [{ to: 'https://www.hbl.com/', label: 'HBL' }],
+		logo: Assets.HBL,
+		name: 'HBL',
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation'),
+		type: 'Client Website',
+	},
+	{
+		slug: 'khaadi',
+		color: '#004B8D',
+		description:
+			"<p>Khaadi is a renowned Pakistani fashion brand known for its handwoven textiles and contemporary clothing designs.</p>",
+		shortDescription:
+			"Khaadi is a renowned Pakistani fashion brand known for its handwoven textiles and contemporary clothing designs.",
+		period: { from: new Date(2020, 0, 29), to: new Date(2024, 1, 5) },
+		links: [{ to: 'https://www.khaadi.com/', label: 'Khaadi' }],
+		logo: Assets.Khaadi,
+		name: 'Khaadi',
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation'),
 		type: 'Client Website',
 	},
 	{
@@ -153,7 +209,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.gillettepakistan.com/', label: 'Gillette' }],
 		logo: Assets.Gillette,
 		name: 'Gillette',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation'),
 		type: 'Client Website',
 	},
 	{
@@ -167,7 +223,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.instagram.com/pantene_pakistan/', label: 'Pantene' }],
 		logo: Assets.Pantene,
 		name: 'Pantene',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation', 'concept-development'),
 		type: 'Client Website',
 	},
 	{
@@ -181,7 +237,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.unilever.pk/brands/nutrition/rafhan/', label: 'Rafhan' }],
 		logo: Assets.Rafhan,
 		name: 'Rafhan',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation'),
 		type: 'Client Website',
 	},
 	{
@@ -195,7 +251,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.facebook.com/hellmannspk/', label: 'Hellmanns' }],
 		logo: Assets.Hellmanns,
 		name: 'Hellmanns',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation', 'concept-development'),
 		type: 'Client Website',
 	},
 	{
@@ -209,7 +265,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.ebm.com.pk/products/gluco', label: 'Gluco Juniors' }],
 		logo: Assets.GlucoJuniors,
 		name: 'Gluco Juniors',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation'),
 		type: 'Client Website',
 	},
 	{
@@ -223,7 +279,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.facebook.com/Pamperspakistan', label: 'Pampers' }],
 		logo: Assets.Pampers,
 		name: 'Pampers',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation'),
 		type: 'Client Website',
 	},
 	{
@@ -237,7 +293,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://colgate.com.pk/exports/product/lemon-max-liquid/', label: 'LemonMax' }],
 		logo: Assets.LemonMax,
 		name: 'Lemon Max',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation'),
 		type: 'Client Website',
 	},
 	{
@@ -251,21 +307,21 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.colgate.com.pk/', label: 'Colgate' }],
 		logo: Assets.Colgate,
 		name: 'Colgate',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation'),
 		type: 'Client Website',
 	},
 	{
 		slug: 'anne-french',
 		color: '#F5C4B4',
 		description:
-			"<p>Colgate is a leading global brand specializing in oral care products, including toothpaste, toothbrushes, and mouthwashes.</p>",
+			"<p>Anne French offers a range of skincare products, including hair removal creams and other beauty solutions.</p>",
 		shortDescription:
-			"Colgate is a leading global brand specializing in oral care products, including toothpaste, toothbrushes, and mouthwashes.",
+			"Anne French offers a range of skincare products, including hair removal creams and other beauty solutions.",
 		period: { from: new Date(2020, 0, 29), to: new Date(2024, 1, 5) },
 		links: [{ to: 'https://www.facebook.com/AnneFrenchPK', label: 'Anne French' }],
 		logo: Assets.AnneFrench,
 		name: 'Anne French',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation'),
 		type: 'Client Website',
 	},
 	{
@@ -279,25 +335,9 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.effie.org/', label: 'Effie Awards' }],
 		logo: Assets.EffieAwards,
 		name: 'Effie Awards',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation'),
 		type: 'Client Website',
-	},
-	
-	{
-		slug: 'colgate',
-		color: '#0033A0',
-		description:
-			"<p>Colgate is a leading global brand specializing in oral care products, including toothpaste, toothbrushes, and mouthwashes.</p>",
-		shortDescription:
-			"Colgate is a leading global brand specializing in oral care products, including toothpaste, toothbrushes, and mouthwashes.",
-		period: { from: new Date(2020, 0, 29), to: new Date(2024, 1, 5) },
-		links: [{ to: 'https://www.colgate.com.pk/', label: 'Colgate' }],
-		logo: Assets.LemonMax,
-		name: 'Colgate',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
-		type: 'Client Website',
-	},
-	
+	},	
 	{
 		slug: 'digicel',
 		color: '#F26A4C',
@@ -309,7 +349,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.digicelgroup.com/', label: 'Digicel' }],
 		logo: Assets.Digicel,
 		name: 'Digicel',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation'),
 		type: 'Client Website',
 	},
 	
@@ -324,7 +364,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.continentalbiscuits.com.pk/', label: 'Continental Biscuits' }],
 		logo: Assets.ContinentalBiscuits,
 		name: 'Continental Biscuits',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation', 'social-media-management'),
 		type: 'Client Website',
 	},
 	
@@ -339,7 +379,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.continentalbiscuits.com.pk/prince/', label: 'Prince Biscuits' }],
 		logo: Assets.Prince,
 		name: 'Prince Biscuits',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation', 'social-media-management'),
 		type: 'Client Website',
 	},
 	
@@ -354,7 +394,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.continentalbiscuits.com.pk/candi/', label: 'Candi Biscuits' }],
 		logo: Assets.Candi,
 		name: 'Candi Biscuits',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation', 'social-media-management'),
 		type: 'Client Website',
 	},
 	
@@ -369,7 +409,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.continentalbiscuits.com.pk/gala/', label: 'Gala Biscuits' }],
 		logo: Assets.Gala,
 		name: 'Gala Biscuits',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation', 'social-media-management'),
 		type: 'Client Website',
 	},
 	
@@ -384,7 +424,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.continentalbiscuits.com.pk/wheatable/', label: 'Wheatable' }],
 		logo: Assets.Wheatable,
 		name: 'Wheatable Biscuits',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation', 'social-media-management'),
 		type: 'Client Website',
 	},
 	{
@@ -398,7 +438,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.engrofoundation.com/', label: 'Engro Foundation' }],
 		logo: Assets.EngroFoundation,
 		name: 'Engro Foundation',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('content-strategy', 'digital-campaign-creation', 'copywriting', 'project-management', 'creative-ideation', 'social-media-management'),
 		type: 'Client Website',
 	},
 ];

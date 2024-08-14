@@ -48,12 +48,12 @@
 			{project.shortDescription}
 		</p>
 	</div>
-	<div class="row justify-between text-0.8em font-400">
+	<!-- <div class="row justify-between text-0.8em font-400">
 		<Chip>{from}</Chip>
 		{#if from !== to}
 			<Chip>{to}</Chip>
 		{/if}
-	</div>
+	</div> -->
 	<CardDivider />
 	<div class="row flex-wrap">
 		{#each project.skills as tech}

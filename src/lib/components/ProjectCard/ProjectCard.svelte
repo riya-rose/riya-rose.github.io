@@ -11,7 +11,7 @@
 	import { getAssetURL } from '$lib/data/assets';
 	import { base } from '$app/paths';
 
-	// export let project: Project;
+	export let project: Project;
 	// $: months = countMonths(project.period.from, project.period.to);
 	// // $: period = `${months} month${months > 1 ? 's' : ''}`;
 	// $: period = `${getTimeDiff(

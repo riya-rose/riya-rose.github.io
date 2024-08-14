@@ -108,7 +108,7 @@ const Assets = {
 	Ariel: a('ariel.png'),
 	HeadAndShoulders: a('head-and-shoulders.png'),
 	Gillette: a('gillette.png'),
-	Pantene: a('pantene.png'),
+	Pantene: a('pantene.jpg'),
 	Rafhan: a('rafhan.png'),
 	Hellmanns: a('hellmanns.png'),
 	GlucoJuniors: a('gluco-juniors.png'),
@@ -127,6 +127,7 @@ const Assets = {
 	EastRiver: a('east-river.png'),
 	SamaaTV: a('samaa-tv.png'),
 	ExpressNews: a('express-news.png'),
+	AnneFrench: a('anne-french.jpg'),
 };
 
 export default Assets;

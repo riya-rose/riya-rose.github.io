@@ -96,27 +96,19 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: '',
-				src: 'https://drive.google.com/file/d/1BSoRtH3CXqNuULzeP1Efylr6G9HW06_J/preview'
+				src: 'https://drive.google.com/file/d/1C-rmI0-YU5Mu1J6LTBo3NUXB9VUQmcJs/preview'
 			},
 			{
 				label: '',
-				src: 'https://drive.google.com/file/d/1mzZYfrTcPumF2DmsUaZHQX_saPOXS90e/preview'
+				src: 'https://drive.google.com/file/d/1CAtv6WJpBwBx4Es67UcUIXBAoFty-TSW/preview'
 			},
 			{
 				label: '',
-				src: 'https://drive.google.com/file/d/1pIr-98mHzOIYqh-6vJ1sIJNIZnYhaMDR/preview'
+				src: 'https://drive.google.com/file/d/1CGatx2FlTL174dduWD4Qsm_AMVa54GzS/preview'
 			},
 			{
 				label: '',
-				src: 'https://drive.google.com/file/d/1w9EwzTTpTvnLvznP34ectZyWQUuGitSy/preview'
-			},
-			{
-				label: '',
-				src: 'https://drive.google.com/file/d/1az0Gq2ucNHUeXVpdOQE68cBCL6Ky9KhI/preview'
-			},
-			{
-				label: '',
-				src: 'https://drive.google.com/file/d/1CqtXB_IVJ8TbiNNbTLiQj8p_hp9CXfEv/preview'
+				src: 'https://drive.google.com/file/d/1CJFs71uaYeP27xOWYDxYW6ydKbYj8uYP/preview'
 			},
 		],
 	},

@@ -37,11 +37,11 @@
 				>
 			
 				<iframe style="display:block;" src={`${screenshot?.src}`} width="640" height="480" allow="autoplay"></iframe>
-				<p
+				<!-- <p
 					class="font-italic m-t-auto m-x-auto m-b-5 inline-flex bg-[var(--main-60)] border-solid border-1px border-[var(--border)] p-x-5 p-2 rounded-xl"
 				>
 					{screenshot?.label}
-				</p>
+				</p> -->
 			</div>
 			<p class="text-[var(--accent-text)] text-0.7em">Click outside the frame to close</p>
 		</div>

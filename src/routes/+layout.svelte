@@ -9,7 +9,6 @@
 	// ? moved to +layout.server.ts : will be deleted when we make sure that everything is alright
 	// export const prerender = true;
 
-	// onMount(() => onHydrated());
 	let loading = true;
 
 	onMount(async () => {
@@ -23,7 +22,6 @@
 		loading = false;
 	});
 </script>
-
 {#if loading}
 	<Loader visible={loading} />
 {:else}
@@ -32,7 +30,6 @@
 	<NavMenu />
 	<div class="content container"><slot /></div>
 </div>
-
 {/if}
 
 <style lang="scss">
